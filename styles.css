@@ -1,0 +1,343 @@
+            @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Roboto:wght@300&display=swap');
+            .container-1 {
+                display: flex;
+            }
+            
+            .container-2 {
+                display: flex;
+            }
+            
+            .container-3 {
+                display: flex;
+            }
+            
+            .navbar {
+                flex-wrap: wrap;
+                display: flex;
+                background: #5BA99B;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                left: 0;
+            }
+            
+            .logo {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                color: #787878;
+                position: relative;
+                left: 2em;
+            }
+            
+            input {
+                position: relative;
+                top: 20px;
+                width: 456px;
+                height: 32px;
+                border-radius: 18px;
+                text-align: left;
+                margin-left: 40%;
+                left: 10em;
+            }
+            
+            .logIn {
+                position: relative;
+                top: 0.8em;
+                left: -2em;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            .header {
+                font-family: 'Red Hat Display';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 48px;
+                text-align: center;
+                margin-top: 100px;
+            }
+            
+            h4 {
+                margin-left: auto;
+            }
+            
+            .container-1 {
+                display: flex;
+            }
+            
+            .container-1 div {
+                padding: 10px;
+            }
+            
+            .box1 {
+                flex: 1;
+            }
+            
+            .box2 {
+                flex: 1;
+            }
+            
+            .box3 {
+                flex: 1;
+            }
+            
+            .container-2 {
+                display: flex;
+            }
+            
+            .container-2 div {
+                padding: 10px;
+            }
+            
+            .box4 {
+                flex: 1;
+            }
+            
+            .box5 {
+                flex: 1;
+            }
+            
+            .box6 {
+                flex: 1;
+            }
+            
+            .container-3 {
+                display: flex;
+            }
+            
+            .container-3 div {
+                padding: 10px;
+            }
+            
+            .box7 {
+                flex: 1;
+            }
+            
+            .box8 {
+                flex: 1;
+            }
+            
+            .box9 {
+                flex: 1;
+            }
+            
+            .footer {
+                display: inline-flex;
+                margin: 20px;
+                gap: 50px;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+            
+            .logo {
+                color: white;
+            }
+            
+            .title {
+                color: black;
+            }
+            
+            .other {
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 28px;
+                margin: 30px;
+                margin-top: 100px;
+                width: 181px;
+                height: 28px;
+            }
+            
+            .first {
+                background: #5BA99B;
+                border-radius: 18px;
+                color: white;
+                width: 246px;
+                height: 52px;
+                text-align: center;
+            }
+            
+            .second {
+                color: white;
+                width: 246px;
+                height: 52px;
+                text-align: center;
+                border-radius: 18px;
+                background: #5BA99B;
+            }
+            
+            .third {
+                color: white;
+                width: 246px;
+                height: 52px;
+                text-align: center;
+                background: #5BA99B;
+                border-radius: 18px;
+            }
+            
+            @media (min-width: 320px) and (max-width: 480px) {
+                .navbar {
+                    display: flex;
+                    flex-wrap: wrap;
+                    top: 0;
+                    width: 100%;
+                    left: 0;
+                }
+                .logo {
+                    position: relative;
+                    left: 1em;
+                }
+                input {
+                    position: relative;
+                    top: 20px;
+                    width: 170px;
+                    height: 26px;
+                    border-radius: 18px;
+                    text-align: center;
+                    left: -35px;
+                }
+                .logIn {
+                    position: relative;
+                    top: 10px;
+                    left: 0.5em;
+                }
+                .container-1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-2 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-3 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+            
+            @media (min-width: 481px) and (max-width: 768px) {
+                .navbar {
+                    display: flex;
+                    flex-wrap: wrap;
+                    top: 0;
+                    width: 100%;
+                    left: 0;
+                }
+                input {
+                    position: relative;
+                    top: 20px;
+                    width: 200px;
+                    height: 26px;
+                    border-radius: 18px;
+                    text-align: left;
+                    left: -30px;
+                }
+                .logo {
+                    margin-right: 30px;
+                }
+                .logIn {
+                    position: relative;
+                    top: 0.8em;
+                }
+                .container-1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-2 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-3 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+            
+            @media (min-width: 769px) and (max-width: 1024px) {
+                .navbar {
+                    display: flex;
+                    flex-wrap: wrap;
+                    top: 0;
+                    width: 100%;
+                    left: 0;
+                }
+                input {
+                    position: relative;
+                    top: 20px;
+                    width: 350px;
+                    height: 26px;
+                    border-radius: 18px;
+                    text-align: left;
+                    margin-left: 40%;
+                    left: 10px;
+                }
+                .logIn {
+                    position: relative;
+                    top: 0.8em;
+                    left: -2em;
+                }
+                .container-1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-2 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-3 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+            
+            @media (min-width: 1025px) and (max-width: 1200px) {
+                .navbar {
+                    display: flex;
+                    flex-wrap: wrap;
+                    top: 0;
+                    width: 100%;
+                    left: 0;
+                }
+                input {
+                    position: relative;
+                    top: 20px;
+                    width: 356px;
+                    height: 32px;
+                    border-radius: 18px;
+                    text-align: left;
+                    margin-left: 40%;
+                    left: 60px;
+                }
+                .logIn {
+                    position: relative;
+                    top: 0.8em;
+                    left: -2em;
+                }
+                .container-1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-2 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .container-3 {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
